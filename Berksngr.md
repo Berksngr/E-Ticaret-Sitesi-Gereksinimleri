@@ -1,4 +1,4 @@
-# Berk Süngür - Proje Görevleri ve API Dokümantasyonu
+# Berk Süngür - Proje Görevleri ve API Dokümantasyon Raporu
 
 **Frontend Canlı Link:** [BURAYA_FRONTEND_VERCEL_LINKINI_YAZ]
 **Backend (API) Canlı Link:** [BURAYA_BACKEND_CANLI_LINKINI_YAZ]
