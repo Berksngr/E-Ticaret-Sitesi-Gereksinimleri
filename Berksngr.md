@@ -1,8 +1,7 @@
 # Berk Süngür - Proje Görevleri ve API Dokümantasyon Raporu
 
-**Frontend Canlı Link:** [BURAYA_FRONTEND_VERCEL_LINKINI_YAZ]
-**Backend (API) Canlı Link:** [BURAYA_BACKEND_CANLI_LINKINI_YAZ]
-**YouTube Kanıt Videosu:** [BURAYA_YOUTUBE_LINKINI_YAZ]
+**Frontend Canlı Link:** [https://e-ticaret-sitesi-gereksinimler.vercel.app](https://e-ticaret-sitesi-gereksinimler.vercel.app)
+**Backend (API) Canlı Link:** [https://e-ticaret-sitesi-10gw.onrender.com](https://e-ticaret-sitesi-10gw.onrender.com)
 
 ## Üstlendiğim Görevler ve API Endpoint'leri
 
