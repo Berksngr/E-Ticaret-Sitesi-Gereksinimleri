@@ -1,0 +1,192 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-1234-56789abcdef0",
+    "name": "Berksngr - E-Ticaret API Testleri",
+    "description": "Berk Süngür tarafından geliştirilen Ürün, Kategori ve Sipariş yönetimi API uç noktalarının test senaryoları.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Ürünleri Listele (GET)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://e-ticaret-sitesi-10gw.onrender.com/api/products",
+          "protocol": "https",
+          "host": [
+            "e-ticaret-sitesi-10gw",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "2. Yeni Ürün Ekle (POST)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Kablosuz Kulaklık\",\n  \"price\": 1200,\n  \"stock\": 50,\n  \"category\": \"Elektronik\"\n}"
+        },
+        "url": {
+          "raw": "https://e-ticaret-sitesi-10gw.onrender.com/api/products",
+          "protocol": "https",
+          "host": [
+            "e-ticaret-sitesi-10gw",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "3. Ürün Güncelle (PUT)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"price\": 1150,\n  \"stock\": 45\n}"
+        },
+        "url": {
+          "raw": "https://e-ticaret-sitesi-10gw.onrender.com/api/products/65fa1a2b3c4d5e",
+          "protocol": "https",
+          "host": [
+            "e-ticaret-sitesi-10gw",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "products",
+            "65fa1a2b3c4d5e"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "4. Kategori Listeleme (GET)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://e-ticaret-sitesi-10gw.onrender.com/api/categories",
+          "protocol": "https",
+          "host": [
+            "e-ticaret-sitesi-10gw",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "5. Ürün Arama (GET)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://e-ticaret-sitesi-10gw.onrender.com/api/products/search/kulaklık",
+          "protocol": "https",
+          "host": [
+            "e-ticaret-sitesi-10gw",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "products",
+            "search",
+            "kulaklık"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "6. Siparişleri Getir (GET)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://e-ticaret-sitesi-10gw.onrender.com/api/orders",
+          "protocol": "https",
+          "host": [
+            "e-ticaret-sitesi-10gw",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "orders"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "7. Sipariş Durumu Güncelle (PUT)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"status\": \"Kargoda\"\n}"
+        },
+        "url": {
+          "raw": "https://e-ticaret-sitesi-10gw.onrender.com/api/orders/65fb2c3d4e5f/status",
+          "protocol": "https",
+          "host": [
+            "e-ticaret-sitesi-10gw",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "orders",
+            "65fb2c3d4e5f",
+            "status"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
