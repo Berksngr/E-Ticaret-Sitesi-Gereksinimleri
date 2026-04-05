@@ -1,6 +1,6 @@
 # Berk Süngür - Proje Görevleri ve API Dokümantasyon Raporu
 
-**Frontend Canlı Link:** [https://e-ticaret-sitesi-gereksinimler.vercel.app](https://e-ticaret-sitesi-gereksinimler.vercel.app)
+**Frontend Canlı Link:** [https://e-ticaret-sitesi-gereksinimleri-k4wi-pffrul09r.vercel.app](https://e-ticaret-sitesi-gereksinimleri-k4wi-pffrul09r.vercel.app)
 **Backend (API) Canlı Link:** [https://e-ticaret-sitesi-10gw.onrender.com](https://e-ticaret-sitesi-10gw.onrender.com)
 
 ## Üstlendiğim Görevler ve API Endpoint'leri
