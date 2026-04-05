@@ -8,7 +8,6 @@ const productRoute = require("./products.js");
 const couponRoute = require("./coupons.js");
 const userRoute = require("./users.js");
 const paymentRoute = require("./payment.js");
-const orderRoute = require("./orders.js");
 
 // Test endpoint
 router.get("/", (req, res) => {
@@ -22,6 +21,5 @@ router.use("/products", productRoute);
 router.use("/coupons", couponRoute);
 router.use("/users", userRoute);
 router.use("/payment", paymentRoute);
-router.use("/orders", orderRoute);
 
 module.exports = router;
