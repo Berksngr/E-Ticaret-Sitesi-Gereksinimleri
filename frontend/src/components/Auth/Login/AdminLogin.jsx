@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { message } from "antd";
 import { useNavigate } from "react-router-dom";
-import "./Login.css";
+import "./login.css";
 
 const AdminLogin = () => {
   const [formData, setFormData] = useState({ username: "", password: "" });
