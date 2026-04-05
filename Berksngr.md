@@ -1,4 +1,4 @@
-# Berk Süngür - Proje Görevleri ve API Dokümantasyon Raporu
+# Berk Sungur - Proje Görevleri ve API Dokümantasyon Raporu
 
 **Frontend Canlı Link:** [https://e-ticaret-sitesi-gereksinimleri.vercel.app](https://e-ticaret-sitesi-gereksinimleri.vercel.app)
 **Backend (API) Canlı Link:** [https://e-ticaret-sitesi-10gw.onrender.com](https://e-ticaret-sitesi-10gw.onrender.com)
