@@ -1,11 +1,13 @@
-# Berk Sungur - Proje Görevleri ve API Dokümantasyon Raporu
+# E-Ticaret Projesi - Takım Görevleri ve Raporu
 
 **Frontend Canlı Link:** [https://e-ticaret-sitesi-gereksinimleri.vercel.app](https://e-ticaret-sitesi-gereksinimleri.vercel.app)
 **Backend (API) Canlı Link:** [https://e-ticaret-sitesi-10gw.onrender.com](https://e-ticaret-sitesi-10gw.onrender.com)
 
-## Üstlendiğim Görevler ve API Endpoint'leri
+---
 
-Aşağıda tarafımca geliştirilen/entegre edilen Backend API rotaları ve Frontend gereksinimleri listelenmektedir:
+## 👨‍💻 Berk Sungur - Üstlendiği Görevler ve API Dokümantasyonu
+
+Aşağıda tarafımca (Berk Sungur) geliştirilen/entegre edilen Backend API rotaları ve Frontend gereksinimleri listelenmektedir:
 
 ### 1. Ürün Paneli ve Yönetimi (Frontend)
 Admin kullanıcısı için ürünlerin listelendiği, yenilerinin eklenebildiği ve mevcut olanların güncellendiği yönetim ekranının tasarlanması ve API ile haberleştirilmesi.
@@ -62,4 +64,25 @@ Admin kullanıcısı için ürünlerin listelendiği, yenilerinin eklenebildiği
 - **Açıklama:** Sepeti onaylayıp verilen siparişin güncel aşamasının ("Hazırlanıyor", "Kargoda", "Teslim Edildi") panel üzerinden takip edilmesi.
 
 ---
-**Not:** Bu projedeki Postman test koleksiyonum, projeye eklenen `Berksngr-Postman.json` dosyasında yer almaktadır.
+
+## 👩‍💻 Nilsu Bozkurt - Üstlendiği Görevler ve Bileşenler
+
+Aşağıda tarafımca (Nilsu Bozkurt) geliştirilen önyüz (frontend) ve arkayüz (backend) bileşenleri listelenmektedir:
+
+### 1. Kimlik Doğrulama (Auth) Arayüzleri ve Sistemi
+Sisteme farklı kullanıcı tiplerinin (Kullanıcı, Satıcı, Admin) giriş yapabilmesi için gerekli arayüzlerin tasarlanması ve API entegrasyonu tarafımca yapılmıştır.
+- **Admin Login:** `/src/components/Auth/Login/AdminLogin.jsx`
+- **User Login:** `/src/components/Auth/Login/UserLogin.jsx`
+- **Seller Login:** `/src/components/Auth/Login/SellerLogin.jsx`
+- **Genel Login Bileşeni ve CSS:** `/src/components/Auth/Login/Login.jsx` ve `Login.css`
+
+### 2. Admin Siparişleri Görüntüleme Arayüzü (Order Page)
+- **Dosya:** `/src/pages/Admin/OrderPage.jsx`
+- **Açıklama:** Admin panelinde verilen siparişlerin ve durumlarının düzenli olarak listelendiği sayfanın geliştirilmesi ve entegrasyonu tamamlanmıştır.
+
+### 3. Backend Yönlendirmeleri (Routes)
+- **Dosya:** `/backend/routes/index.js`
+- **Açıklama:** Geliştirilen yeni API uçlarının ana yönlendiriciye eklenmesi ve yapılandırılması tamamlanmıştır.
+
+---
+**Not:** API testleri için kullanılan Postman koleksiyonu projedeki `Berksngr-Postman.json` dosyasında yer almaktadır.
